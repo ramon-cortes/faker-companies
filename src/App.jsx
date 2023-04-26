@@ -19,7 +19,7 @@ function App() {
   const data = companies.map((el, i) => {
     return (
       <div key={i}>
-        <img src={el.imageUrl} alt="Random image" width={50} />
+        <img src={el.imageUrl} alt="Random" width={50} />
         <br />
         {el.name}
         <br />
