@@ -6,7 +6,7 @@ function createRandCompany(thisMany) {
   
   for (let i = 0; i < thisMany; i++) {
     companies.push({
-      name: faker.company.companyName(),
+      name: faker.company.name(),
       catchPhrase: faker.company.catchPhrase(),
       imageUrl: faker.image.avatar()
     });    
