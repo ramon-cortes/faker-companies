@@ -1,8 +1,9 @@
+// Original: "test": "react-scripts test"
+
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders FAKER COMPANIES as title', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  expect(screen.getByText('FAKER COMPANIES')).toBeInTheDocument();
 });
