@@ -30,7 +30,7 @@ function App() {
   });
   return (
     <div>
-      FAKER COMPANY
+      FAKER COMPANIES
       <br />
       {data}
     </div>
